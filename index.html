@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+ 
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+
+<script id="display-template" type="text/x-handlebars-template">
+  <div class="entry">
+    <h1>his name is : {{name}}</h1>
+    <h2>his speed is {{speed}}</h2>  
+    <h3>he has {{strength}} for strength</h3>
+    <h4>his catching is at level : {{catching}}</h4>
+    <h5>he plays on : {{side}}</h5>
+    <h6>for throwing, hes working with : {{throwing}}</h6>
+  </div>
+</script>
+
+
+
+  <div>
+  <select name="sel" id="selId"> 
+  </select> 
+  <button id="playerBtn"> click player</button>
+  </div>
+
+  <section id="putHere">put it here</section> 
+
+   
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+  <script src="scripts/playerData.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
